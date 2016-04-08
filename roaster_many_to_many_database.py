@@ -3,6 +3,8 @@
 Created on Tue Mar 15 18:25:07 2016
 
 @author: csx
+
+read roster data from json file and create a many to many relational database.
 """
 import json
 import sqlite3
@@ -27,7 +29,7 @@ CREATE TABLE Member(
 user_id INTEGER,
 course_id INTEGER,
 role INTEGER,
-PRIMARY KEY (user_id, course_id));
+PRIMARY KEY (user_id, course_id)); #composite primary key
 ''')
 
 #fh = open("roster_data.json")
