@@ -29,8 +29,9 @@ CREATE TABLE Member(
 user_id INTEGER,
 course_id INTEGER,
 role INTEGER,
-PRIMARY KEY (user_id, course_id)); #composite primary key
+PRIMARY KEY (user_id, course_id)); 
 ''')
+#composite primary key
 
 #fh = open("roster_data.json")
 data = json.load(open("roster_data.json")) # a list
