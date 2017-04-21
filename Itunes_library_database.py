@@ -3,6 +3,7 @@
 Created on Thu Mar 10 21:19:16 2016
 
 @author: csx
+add some edits in github
 
 read the itune track library data from XML file. saved data into self built SQLite database.
 """
